@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainSceneController">
+   <top>
+      <MenuBar fx:id="applicationMenuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Application">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#startHandlerCall" text="Start" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadHandlerCall" text="Load" />
+                  <MenuItem mnemonicParsing="false" onAction="#createHandlerCall" text="Create" />
+                  <MenuItem mnemonicParsing="false" onAction="#exitHandler" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Details">
+            <items>
+              <MenuItem fx:id="s" mnemonicParsing="false" onAction="#dicHandlerCall" text="Dictionary" />
+                  <MenuItem mnemonicParsing="false" onAction="#roundsHandler" text="Rounds" />
+                  <MenuItem mnemonicParsing="false" onAction="#solutionHandler" text="Solution" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <ImageView fitHeight="374.0" fitWidth="599.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../images/main.png" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>
