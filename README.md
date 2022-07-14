@@ -3,7 +3,7 @@ This Repository contains the project created for the programming course "Multime
 
 It is a hangman game which receives dictionaries (big sets of words) from openlibrary.com through their Dictionary IDs, then choosing a word randomly and then the game starts. It is played like a somewhat traditional hangman game.
 
-It was developed with the Java programming language and the User Interface was done using the JavaFX framework and with the help of SceneBuilder. The IDE used was VS Code with the "Extension pack for Java".
+It was developed with the Java programming language and the User Interface was done using the JavaFX framework and with the help of SceneBuilder. The IDE used was mostly IntelliJ IDEA but I also used VS Code with the "Extension pack for Java".
       
 User Interface when you first enter the app :
       
